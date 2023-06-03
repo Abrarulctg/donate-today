@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.top-banner {
+    background-image: url(./images/donation5.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.top-banner h1 {
+    font-size: 40px;
+}
+
+.red-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.red-button:hover {
+    background-color: rgb(207, 31, 0);
+    cursor: pointer;
+}
+
+.donation {
+    text-align: center;
+}
+
+.donate-amount {
+    margin-bottom: 40px;
+}
+
+.amount {
+    padding: 25px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.amount:hover {
+    color: tomato;
+    border: 1px solid tomato;
+    background-color: rgba(253, 203, 194, 0.178);
+}
+
+.user-amount {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.user-amount::placeholder {
+    color: lightgray;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.plan-box {
+    display: flex;
+}
+
+.plan-item {
+    padding: 35px 15px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 2%;
+    margin-bottom: 50px;
+}
+
+.food {
+    background-color: aliceblue;
+}
+
+.shelter {
+    background-color: cornsilk;
+}
+
+.education {
+    background-color: bisque;
+}
+
+.flexible-container {
+    display: flex;
+    align-items: center;
+}
+
+.half-width {
+    width: 40%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.subscription {
+    text-align: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subscribe-email {
+    padding: 8px 10px;
+    background-color: lightgray;
+    border: none;
+    position: relative;
+}
+
+.subscribe-button {
+    position: absolute;
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(207, 31, 0);
+    /* cursor: pointer; */
+}
+
+.subscription-input-area {
+    background-color: blanchedalmond;
+    padding: 40px 50px;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1 {
+    color: red;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+}
